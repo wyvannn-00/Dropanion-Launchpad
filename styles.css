@@ -204,7 +204,7 @@ a { color: inherit; text-decoration: none; }
 
 .progress-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 16px;
   text-align: left;
 }
@@ -336,7 +336,7 @@ a { color: inherit; text-decoration: none; }
 /* ---------- Responsive ---------- */
 @media (max-width: 860px) {
   .tiles { grid-template-columns: 1fr; }
-  .proof-grid { grid-template-columns: 1fr; }
+  .progress-grid { grid-template-columns: repeat(2, 1fr); }
   .hero h1 { font-size: 30px; }
   .footer-nav { flex-direction: column; gap: 14px; align-items: flex-start; }
 }
