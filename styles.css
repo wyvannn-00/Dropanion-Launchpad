@@ -116,22 +116,42 @@ a { color: inherit; text-decoration: none; }
 .visual-bot .glow-icon { color: #2dd4d4; filter: drop-shadow(0 0 18px #22d3ee); }
 .visual-calendar .glow-icon { color: #2ee6c4; filter: drop-shadow(0 0 18px #2ee6c4); }
 
+.icon-accent {
+  position: absolute;
+  width: 34px;
+  height: 34px;
+}
+
+.icon-gift {
+  color: #e04dc0;
+  filter: drop-shadow(0 0 10px #e04dc0);
+  left: calc(50% - 42px);
+  top: calc(50% + 26px);
+}
+
+.icon-checklist {
+  color: #2ee6c4;
+  filter: drop-shadow(0 0 10px #2ee6c4);
+  left: calc(50% + 10px);
+  top: calc(50% + 26px);
+}
+
 .pill-free {
   position: absolute;
   top: 14px;
   left: 14px;
-  color: var(--green);
-  background: rgba(52, 211, 153, 0.12);
-  border: 1px solid rgba(52, 211, 153, 0.4);
+  color: #06231d;
+  background: #2ee6c4;
+  box-shadow: 0 0 14px rgba(46, 230, 196, 0.5);
 }
 
 .pill-popular {
   position: absolute;
   top: 14px;
   left: 14px;
-  color: var(--blue);
-  background: rgba(59, 130, 246, 0.12);
-  border: 1px solid rgba(59, 130, 246, 0.4);
+  color: #fff;
+  background: #2f6bf6;
+  box-shadow: 0 0 14px rgba(47, 107, 246, 0.55);
 }
 
 .tile-body {
